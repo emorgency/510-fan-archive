@@ -732,6 +732,22 @@ code {
     font-weight: 400;
 }
 
+
+.album-audio {
+    margin-top: 20px;
+}
+
+.album-audio span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.album-audio audio {
+    width: 50%;
+}
+
 /* ========================================
    9. DISCOGRAPHY TABLE
 ======================================== */
@@ -905,6 +921,15 @@ code {
     max-width: 520px;
     color: var(--text-soft);
 }
+
+
+.shot__frame video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 
 /* ========================================
    11. CONTACT
